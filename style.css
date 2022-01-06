@@ -1,18 +1,23 @@
 .intro{
     display: flex;
+    margin-left: 80px;
+}
+
+.left-border{
+    border-left: 2px solid red;
+    padding-left: 10px;
 }
 .stay-focus{
     width: 50%;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
-.stay-focus img{
+.stay-focus img {
     margin-top: 30px;
     margin-left: 40px;
     width: 350px;
     height: 350px;
     border-radius: 50%;
 }
-
 .orange-color{
     color: orange;
 }
@@ -32,12 +37,12 @@
     text-decoration: none;
     padding: 10px 20px;
     color: white;
-    background-color: tomato;
+    background-color: #ff5959;
 }
 
 .mission-flex{
-    width: 30%;
-    margin: 20px;
+    width: 25%;
+    margin-left: 50px;
     padding: 20px;
     /* border: 2px solid green; */
     
@@ -74,4 +79,32 @@
 }
 .mission-section{
     margin-top: 100px;
+}
+
+.develop{
+    margin-top: 100px;
+    width: 40%;
+    
+}
+.develop img{
+    height: 350px;
+    width: 350px;
+}
+
+.develop a{
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff5959;
+}
+.develop h1{
+    font-size: 2em;
+    color: rgb(95, 90, 90);
+}
+
+.develop p{
+    color: rgb(95, 90, 90);
+    text-align: justify;
+    margin-bottom: 30px;
 }
